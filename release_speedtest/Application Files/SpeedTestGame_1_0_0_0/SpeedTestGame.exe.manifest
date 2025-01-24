@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SpeedTestGame.exe" version="1.0.0.0" publicKeyToken="304725a12b22ee09" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SpeedTestGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SpeedTestGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpeedTestGame.exe" size="19511264">
+      <assemblyIdentity name="SpeedTestGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1/oWl8VujA3Dl/YHyF0A/eEdK0CntidumpAXSM30UBw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\GreenButton.png" size="147620">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V6ttwqxQNkBvQE/LGhVlD4P6xZ48pVKkrcbtyDHyUiM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\GreenButtonLit.png" size="140177">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+OCmyUyDS2Dh2iFiZ/dZDAM0WVXIyVvC6v6qZH6CPnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\NinjaBackground.png" size="3391383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0+hzvM+rnNs8Ya8QbPTu9b8J1iKgYDCooVW0QpUH2ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OrangeButton.png" size="147672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tnKq0QMuyiP2FuU6RwZmsp7uIHKplPUWZm1wr769ZAM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OrangeButtonLit.png" size="144954">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yhKoK+zBxr8Ff8hkbMWJxfEUJhJwVtY05dMD8EJkT+A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\RedButton.png" size="150084">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i/blL033gJ64GmqWmzA4mOl+YDvQs2pY8WWdD44ZAy0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\RedButtonLit.png" size="139214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kzEZATmJbhaPtTWE6kdXS5QzrJL6klIqu2d/xuRsjbI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SpeedGameWindowBackground.png" size="8766026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A6SXYlauOWBdVI0Ikwyau/zOwZL8RgLwDAofkhFd+jU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\YellowButton.png" size="145221">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nl8UTQZqwJL+TpAyynGmOQHOZMSugQ4Vifbm7KK+noE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\YellowButtonLit.png" size="134098">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lXzGR2QaZHYil7v53GrjHqInuyRCeNRdQCe8/qNKkqg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SpeedTestGame.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-6KTO8E5\elias" issuerKeyHash="4706f1e3ae9f05cd98de89c56455508162ccd12d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nm8sD/bL9YEKgmWsNuSZswUn0ybrxiAAKkuRsl1MpLI=</DigestValue></Reference></SignedInfo><SignatureValue>SV/b/5v1xjxC44Ifi1UPq+vgK93V/ZOmdAfWr/DSuu/VSfNc95oeNRccvPeUynyMrjJ7iqOY1DGh7kLVe82VKdUftQzlyIRyZjAlTWk2Q+a9oS7iSfNxBtxvZX6tL1aMTKSaO+ICRZf3qqLLYuWYqMks/HXKx8uKuZG7vJodrPk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yWrMB5sffx2xjjMnys4owBYVjw6x4KfRsxuz6ZUIpjEq7ybUlfCQ2vr1IqCrizc1dOUWH7+8WGtCEtmfHWqswBG06J2K7j9GXHXx7IHILdBymI4odz6PNtYeNL29LNCWDj/31Ooe7g87wPnhDjiiRJL40+4FrPLjWorOLJkOYd0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b2a44c5db2914b2a0020c6eb26d32705b399e436ac65820a81f5cbf60f2c6f9e" Description="" Url=""><as:assemblyIdentity name="SpeedTestGame.exe" version="1.0.0.0" publicKeyToken="304725a12b22ee09" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-6KTO8E5\elias</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pqoYnmzEDdyNtjrVWAqhSOmwEkcwpQO41fxMPO3XCnY=</DigestValue></Reference></SignedInfo><SignatureValue>T4i2sZtetAuGEelexqVOKSpVaR47enS+M/WO4I25LOUFxpY5G7CZ209HDVndxycJxYkymDQKEV03xMrGhWEiPQfUsENhuGxMrSX2ImaqLGGMUrh+Jdt6zMyzAF3gWIrQScMugFCTA/lWMsIAq7wJnbw3Ql6R8fxMpFUIPFTXxsU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yWrMB5sffx2xjjMnys4owBYVjw6x4KfRsxuz6ZUIpjEq7ybUlfCQ2vr1IqCrizc1dOUWH7+8WGtCEtmfHWqswBG06J2K7j9GXHXx7IHILdBymI4odz6PNtYeNL29LNCWDj/31Ooe7g87wPnhDjiiRJL40+4FrPLjWorOLJkOYd0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZEbhDgeAI49Jpemnr4WEGjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYASwBUAE8AOABFADUAXABlAGwAaQBhAHMwHhcNMjUwMTI0MDc0MjQ5WhcNMjYwMTI0MTM0MjQ5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYASwBUAE8AOABFADUAXABlAGwAaQBhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMlqzAebH38dsY4zJ8rOKMAWFY8OseCn0bMbs+mVCKYxKu8m1JXwkNr69SKgq4s3NXTlFh+/vFhrQhLZnx1qrMARtOidiu4/Rlx18eyByC3QcpiOKHc+jzbWHjS9vSzQlg4/99TqHu4PO8D54Q44okSS+NPuBazy41qKziyZDmHdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHegMDqm4wjZNXTuqXv2trwP/cvnVmFZ4550/MuhlU7rRN6Hh2eHXYPa6cBB3f7BXDarQYPo+Dk2wPAo1cDehUOPY1z/Yw11VpUfSRi8zpdjtUhqhsKDIQKow0EV42azHYoGQlvFjT5ZZwm/9psKgtiVgkFGIsdvtfM6js4C2Fqs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
