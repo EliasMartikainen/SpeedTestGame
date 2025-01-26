@@ -1,5 +1,7 @@
 # Speed Test Game
 
+https://github.com/user-attachments/assets/8afe84cc-30e2-476a-9742-1460f978b4f4
+
 ## Speed Button Game is a reaction-based game where player must quickly press the correct buttons as they light up. Test your speed and intuition!
 
 ## How it works
